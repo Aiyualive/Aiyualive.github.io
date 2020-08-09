@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  overflow: hidden;
+}
+body svg {
+  width: 1000px;
+  height: 1000px;
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: 10px;
+}
+body svg text {
+  font: 7pt "Ubuntu Condensed", sans-serif;
+  fill: white;
+}
+body svg .row line, body svg .column line {
+  stroke: white;
+}
+body svg .row text {
+  text-anchor: end;
+  alignment-baseline: hanging;
+}
+body svg .column text {
+  text-anchor: start;
+  alignment-baseline: hanging;
+}
+
+/*# sourceMappingURL=style.css.map */
