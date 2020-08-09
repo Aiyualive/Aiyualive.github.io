@@ -1,0 +1,15 @@
+
+#container1 {
+    border:0px black;
+    width: 700px;
+    height: 475px;
+    position: fixed;
+    top: 15%;
+    left: 22%;
+}
+#map {
+    margin: 0px auto;
+    width: 700px;
+    position: relative;
+}
+
